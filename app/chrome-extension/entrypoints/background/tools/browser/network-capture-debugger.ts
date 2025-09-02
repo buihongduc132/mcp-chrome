@@ -110,8 +110,8 @@ const AD_ANALYTICS_DOMAINS = [
 
 const DEBUGGER_PROTOCOL_VERSION = '1.3';
 const MAX_RESPONSE_BODY_SIZE_BYTES = 1 * 1024 * 1024; // 1MB
-const DEFAULT_MAX_CAPTURE_TIME_MS = 3 * 60 * 1000; // 3 minutes
-const DEFAULT_INACTIVITY_TIMEOUT_MS = 60 * 1000; // 1 minute
+const DEFAULT_MAX_CAPTURE_TIME_MS = 600000; // 10 minutes
+const DEFAULT_INACTIVITY_TIMEOUT_MS = 600000; // 10 minutes
 
 /**
  * Network capture start tool - uses Chrome Debugger API to start capturing network requests
