@@ -17,10 +17,10 @@ if (window.__NETWORK_CAPTURE_HELPER_INITIALIZED__) {
    * @param {string} method - The HTTP method to use
    * @param {Object} headers - The headers to include in the request
    * @param {any} body - The body of the request
-   * @param {number} timeout - Timeout in milliseconds (default: 30000)
+   * @param {number} timeout - Timeout in milliseconds (default: 600000)
    * @returns {Promise<Object>} - The response data
    */
-  async function replayNetworkRequest(url, method, headers, body, timeout = 30000) {
+  async function replayNetworkRequest(url, method, headers, body, timeout = 600000) {
     try {
       // Create fetch options
       const options = {

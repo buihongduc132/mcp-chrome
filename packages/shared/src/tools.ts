@@ -257,7 +257,7 @@ export const TOOL_SCHEMAS: Tool[] = [
         },
         timeout: {
           type: 'number',
-          description: 'Timeout in milliseconds (default: 30000)',
+          description: 'Timeout in milliseconds (default: 600000)',
         },
       },
       required: ['url'],

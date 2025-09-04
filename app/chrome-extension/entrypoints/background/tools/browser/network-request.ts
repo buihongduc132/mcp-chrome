@@ -3,7 +3,7 @@ import { BaseBrowserToolExecutor } from '../base-browser';
 import { TOOL_NAMES } from 'chrome-mcp-shared';
 import { TOOL_MESSAGE_TYPES } from '@/common/message-types';
 
-const DEFAULT_NETWORK_REQUEST_TIMEOUT = 30000; // For sending a single request via content script
+const DEFAULT_NETWORK_REQUEST_TIMEOUT = 600000;// 10 minutes // For sending a single request via content script
 
 interface NetworkRequestToolParams {
   url: string; // URL is always required
